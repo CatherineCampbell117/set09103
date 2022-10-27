@@ -1,5 +1,5 @@
-from flask import FLASK, render_template
-app = FLASK(__name__)
+from flask import Flask, render_template
+app = Flask(__name__)
 
 @app.route('/hello/<name>')
 def hello(name=None):
