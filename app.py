@@ -1,5 +1,5 @@
-from flask import Flask, g, request, jsonify
-import sqlite3
+from flask import Flask, sqlite3, request, jsonify
+
 
 app = Flask(__name__)
 db_location = 'song.db'
