@@ -18,7 +18,7 @@ def close_db_connection(exception):
 def hello_world():
     return 'This is my first API call!'
 
-@app.route('/post', method=["POST"])
+@app.route('/post', methods=["POST"])
 def testpost():
     input_json = request.get_json(force=True)
     dictToReturn = {'text':input_json['text']}
