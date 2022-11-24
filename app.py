@@ -28,3 +28,6 @@ def testpost():
     input_json = request.get_json(force=True)
     dictToReturn = {'text':input_json['text']}
     return jsonify(dictToReturn)
+
+if __name__ == "__main__":
+    app,run(host="0.0.0.0", debug=True)
