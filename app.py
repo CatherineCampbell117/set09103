@@ -23,7 +23,7 @@ def init_db():
 
 @app.route('/')
 def hello_world():
-    return 'This is my first API call!'
+    return render_template("index.html")
 
 @app.route('/post', methods=["POST"])
 def testpost():
