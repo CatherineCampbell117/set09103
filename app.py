@@ -14,6 +14,11 @@ def get_db():
 def close_db_connection(exception):
     db = getattr(g, 'db')
 
+def init_db():
+    with app.app_context():
+        db = get_db()
+        db.commit()
+
 @app.route('/')
 def hello_world():
     return 'This is my first API call!'
