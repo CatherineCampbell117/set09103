@@ -36,7 +36,7 @@ def getsongs(search):
     cursor = conn.cursor()
     cursor.execute(
         "SELECT * FROM `songs` WHERE `title` LIKE ? OR `lyrics` LIKE ?",
-        ("%"+search"%", "%"+search"%",)
+        ("%"+search+"%", "%"+search+"%",)
     )
     results = cursor.fetchall()
     conn.close()
