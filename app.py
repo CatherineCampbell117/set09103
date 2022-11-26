@@ -21,11 +21,6 @@ def init_db():
         db = get_db()
         db.commit()
 
-def init_db():
-    with app.app_context():
-        db = get_db()
-        db.commit()
-
 @app.route('/')
 def hello_world():
     return render_template("index.html")
