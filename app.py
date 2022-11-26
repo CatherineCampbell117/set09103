@@ -1,4 +1,4 @@
-from flask import Flask, g, request, jsonify, render_template
+from flask import Flask, g, request, jsonify, render_template,
 import sqlite3
 
 app = Flask(__name__)
@@ -30,11 +30,26 @@ def init_db():
 def hello_world():
     return render_template("index.html")
 
-@app.route('/post', methods=["POST"])
-def testpost():
-    input_json = request.get_json(force=True)
-    dictToReturn = {'text':input_json['text']}
-    return jsonify(dictToReturn)
+@app.route('/')
+def getsongs(search):
+    conn = sqlite3.connect(song.db)
+    cursor = conn.cursor()
+    cursor.execute(
+        "SELECT * FROM `songs` WHERE `title` LIKE ? OR `lyrics` LIKE ?",
+        ("%"+search"%", "%"+search"%",)
+    )
+    results = cursor.fetchall()
+    conn.close()
+    return results 
+
+@app.route('/post', methods=["GET", "POST"])
+def index():
+    if request.method == "POST":
+        data = dict(request.form)
+        songs = getsongs(data["search"])
+    else:
+        songs = []
+    return render_template("results.html", sgs=songs)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)

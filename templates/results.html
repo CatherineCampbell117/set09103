@@ -28,5 +28,18 @@
             </div>
         </div>
     </header>
+    {% if sgs | length != 0 %}
+    <table id="demo">
+        {% for s in sgs %}
+        <tr>
+            <td>{{ s[0] }}</td>
+            <td>{{ s[1] }}</td>
+            <td>{{ s[2] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <div id="demo">No search results.</div>
+    {% endif %}
 </body>
 </html>

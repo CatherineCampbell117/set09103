@@ -15,7 +15,7 @@ img{
 
 #flex_header{
     display: flex;
-    background-color: #B36FBB;
+    background-color: #7B6CF6;
 }
 
 .nav_links{
@@ -60,7 +60,7 @@ button, input[type=text] {
     font-weight: 600;
     font-size: 1rem;
     padding: 0.5em 1.25em;
-    border: 2px solid #B36FBB;
+    border: 2px solid #7B6CF6;
     border-radius: 2em;
     background-color: transparent;
     cursor: pointer;
@@ -69,8 +69,8 @@ button, input[type=text] {
 }
 
 input[type=text]:focus{
-    border: 2px solid #4dd40e;
-    outline:#4dd40e;
+    border: 2px solid #E5A5FF;
+    outline:#E5A5FF;
 }
 
 ::placeholder{
@@ -80,13 +80,16 @@ input[type=text]:focus{
 button{
     color: #f8f8ff;
     border-radius: 2em;
-    background-color: #B36FBB;
+    background-color: #7B6CF6;
+    border: 2px solid #7B6CF6;
     width: 10em;
     margin: 0 auto;
 }
 
 button:hover{
-    background-color: #633569;
-    border: 2px solid #633569;
+    background-image: linear-gradient(#7B6CF6 0%, #5432D3 100%);
+    /* background-color: #5432D3; */
+    border: 2px solid #7B6CF6;
+    color: #f8f8ff;
     transition: all 0.3s ease 0s;
 }
