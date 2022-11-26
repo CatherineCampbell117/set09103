@@ -33,8 +33,16 @@
             </div>
         </div>
     </header>
+    <div id="wrapper">
+        <main>
+            <h1>Results</h1>
     {% if sgs | length != 0 %}
     <table id="demo">
+        <thead>
+            <th>Title</th>
+            <th>Artist</th>
+            <th>Genre</th>
+        </thead>
         {% for s in sgs %}
         <tr>
             <td>{{ s[0] }}</td>
@@ -46,5 +54,7 @@
     {% else %}
     <div id="demo">No search results.</div>
     {% endif %}
+</main>
+</div>
 </body>
 </html>

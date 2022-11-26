@@ -2,10 +2,14 @@ body{
     margin: 0;
 }
 
+/* Main content */
+
 #wrapper{
     width: 900px;
     margin: 0 auto;
 }
+
+/* Header */
 
 img{
     width: 80px;
@@ -43,6 +47,8 @@ li+li{
     padding: 0 70px 0 50px;
 }
 
+/* Body */
+
 h1{
     font-family: 'Syne Mono', monospace;
     font-weight: 400;
@@ -52,7 +58,7 @@ h1{
     margin: 0;
 }
 
-
+/* Form */
 
 button, input[type=text] {
     display: block;
@@ -93,3 +99,34 @@ button:hover{
     color: #f8f8ff;
     transition: all 0.3s ease 0s;
 }
+
+/* Results table */
+
+table, thead, td, th {
+    
+    border-collapse: collapse;
+    width: 600px;
+    margin: 0 auto;
+}
+
+thead{
+    border-bottom: 1px solid #b3b3b3;
+}
+
+th {
+    padding: .75em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: left;
+}
+
+td {
+    padding: .75em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+
+
