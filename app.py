@@ -25,7 +25,7 @@ def init_db():
 def hello_world():
     return render_template("index.html")
 
-@app.route('/')
+@app.route('/search')
 def getsongs(search):
     conn = sqlite3.connect(song.db)
     cursor = conn.cursor()
