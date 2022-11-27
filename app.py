@@ -21,7 +21,7 @@ def init_db():
         db = get_db()
         db.commit()
 
-@app.route('/')
+@app.route('/', methods=["GET", "POST"])
 def getsongs():
     data =""
     if request.method == "POST":
