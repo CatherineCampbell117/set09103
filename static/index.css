@@ -162,7 +162,7 @@ td{
     text-align: center;
 }
 
-h3+h3{
+.padding_top{
     padding-top: 50px;
 }
 
