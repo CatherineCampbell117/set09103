@@ -32,8 +32,8 @@ def getsongs():
             conn = sqlite3.connect('song.db')
             cursor = conn.cursor()
             cursor.execute(
-                "SELECT * FROM `songs` WHERE `title` LIKE ? OR `lyrics` LIKE ?",
-                ("%"+data+"%", "%"+data+"%",)
+                "SELECT * FROM `songs` WHERE `title` LIKE ? OR `artist` LIKE ? OR `lyrics` LIKE ?",
+                ("%"+data+"%", "%"+data+"%", "%"+data+"%")
             )
             results = cursor.fetchall()
             conn.close()

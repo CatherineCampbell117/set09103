@@ -37,7 +37,7 @@
         <main>
             <h1>Results</h1>
     {% if sgs | length != 0 %}
-    <table id="demo">
+    <table>
         <thead>
             <th>Title</th>
             <th>Artist</th>
@@ -52,7 +52,7 @@
         {% endfor %}
     </table>
     {% else %}
-    <div id="demo">No search results.</div>
+    <div id="no_results">No search results.</div>
     {% endif %}
 </main>
 </div>
