@@ -26,7 +26,7 @@ def getsongs():
     data =""
     if request.method == "POST":
         data = request.form.get('search')
-    conn = sqlite3.connect(song.db)
+    conn = sqlite3.connect('song.db')
     cursor = conn.cursor()
     cursor.execute(
         "SELECT * FROM `songs` WHERE `title` LIKE ? OR `lyrics` LIKE ?",
