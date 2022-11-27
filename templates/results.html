@@ -1,38 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../static/index.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
-    </style>
-</head>
+{% entends 'base.html' %}
+
 <body>
-    <header id="flex_header">
-        <a class="logo" href="index.html" role="link"><img src="../static/headphones 2.png"
-                alt="Edinburgh Napier University logo" width="200px"></a>
-        <div id="flex_space_between">
-            <div class="flex_item">
-                <nav role="navigation">
-                    <ul class="nav_links">
-                        <li><a href="" role="link" class="nav_item">ABOUT</a></li>
-                        <li><a href="" role="link" class="nav_item">MY SONGS</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="flex_item">
-                <nav role="navigation">
-                    <ul class="nav_links">
-                        <li><a href="" role="link" class="nav_item">HELP</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
     <div id="wrapper">
         <main>
     {% if sgs | length != 0 %}
@@ -61,4 +29,3 @@
 </main>
 </div>
 </body>
-</html>

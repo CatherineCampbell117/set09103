@@ -40,7 +40,14 @@ def getsongs():
             print(data)
             return render_template("results.html", sgs=results)
     
-        
+@app.route('/about', methods=["GET", "POST"])
+def about():
+    return render_template("about.html")
+
+@app.route('/help', methods=["GET", "POST"])
+def help():
+    return render_template("help.html")   
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
