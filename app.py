@@ -22,22 +22,22 @@ def init_db():
         db.commit()
 
 @app.route('/')
-def hello_world():
-    return render_template("index.html")
-
-@app.route('/search', methods=["GET", "POST"])
 def getsongs():
+    data =""
     if request.method == "POST":
         data = request.form.get('search')
-        conn = sqlite3.connect(song.db)
-        cursor = conn.cursor()
-        cursor.execute(
-            "SELECT * FROM `songs` WHERE `title` LIKE ? OR `lyrics` LIKE ?",
-            ("%"+data+"%", "%"+data+"%",)
-        )
+    conn = sqlite3.connect(song.db)
+    cursor = conn.cursor()
+    cursor.execute(
+        "SELECT * FROM `songs` WHERE `title` LIKE ? OR `lyrics` LIKE ?",
+        ("%"+data+"%", "%"+data+"%",)
+    )
     results = cursor.fetchall()
     conn.close()
-    return render_template("results.html", sgs=songs)
+    return render_template("results.html", sgs=results)
+
+@app.route('/search', methods=["GET", "POST"])
+
 
 @app.route('/post', methods=["GET", "POST"])
 def index():
