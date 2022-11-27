@@ -22,8 +22,6 @@ def init_db():
         db.commit()
 
 @app.route('/', methods=["GET", "POST"])
-def home():
-    return render_template("index.html")
 def getsongs():
     data =""
     if request.method == "POST":
@@ -38,6 +36,8 @@ def getsongs():
         conn.close()
         print(data)
         return render_template("results.html", sgs=results)
+    else:
+        return render_template("index.html")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
