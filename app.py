@@ -25,17 +25,19 @@ def init_db():
 def hello_world():
     return render_template("index.html")
 
-@app.route('/search')
-def getsongs(search):
-    conn = sqlite3.connect(song.db)
-    cursor = conn.cursor()
-    cursor.execute(
-        "SELECT * FROM `songs` WHERE `title` LIKE ? OR `lyrics` LIKE ?",
-        ("%"+search+"%", "%"+search+"%",)
-    )
+@app.route('/search', methods=["POST"])
+def getsongs():
+    if request.method == "POST":
+        data = request.form.get('search')
+        conn = sqlite3.connect(song.db)
+        cursor = conn.cursor()
+        cursor.execute(
+            "SELECT * FROM `songs` WHERE `title` LIKE ? OR `lyrics` LIKE ?",
+            ("%"+data+"%", "%"+data+"%",)
+        )
     results = cursor.fetchall()
     conn.close()
-    return results 
+    return render_template("results.html", sgs=songs)
 
 @app.route('/post', methods=["GET", "POST"])
 def index():
