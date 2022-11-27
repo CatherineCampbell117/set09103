@@ -34,9 +34,8 @@ def getsongs():
     )
     results = cursor.fetchall()
     conn.close()
-    return render_template("results.html", sgs=results)
-
-@app.route('/search', methods=["GET", "POST"])
+    print(data)
+    return render_template("index.html", sgs=results)
 
 
 @app.route('/post', methods=["GET", "POST"])
