@@ -68,7 +68,7 @@ h2{
     font-size: 1.25rem;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
-    padding: 0 0 1em 0;
+    padding: 0 0 1.5em 0;
 }
 
 h3{
@@ -78,7 +78,7 @@ h3{
 }
 
 #less_padding_btm{
-    padding-bottom: .75em;
+    padding-bottom: 1em;
 }
 
 /* Form */
