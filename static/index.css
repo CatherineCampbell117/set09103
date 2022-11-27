@@ -102,7 +102,7 @@ button:hover{
 
 /* Results table */
 
-table, thead, td, th {
+table, thead, td, th{
     
     border-collapse: collapse;
     width: 600px;
@@ -113,7 +113,7 @@ thead{
     border-bottom: 1px solid #b3b3b3;
 }
 
-th {
+th{
     padding: .75em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
@@ -121,12 +121,18 @@ th {
     text-align: left;
 }
 
-td {
+td{
     padding: .75em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 1rem;
 }
 
-
+#no_results{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+}
 
