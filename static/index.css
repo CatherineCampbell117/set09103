@@ -158,6 +158,14 @@ td{
     margin: 0 auto;
 }
 
+#about_text p{
+    text-align: center;
+}
+
+h3+h3{
+    padding-top: 50px;
+}
+
 #no_results_img{
     margin: 0;
     padding: 0;
