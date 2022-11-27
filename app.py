@@ -37,7 +37,8 @@ def getsongs():
         print(data)
         return render_template("results.html", sgs=results)
     else:
-        return render_template("index.html")
+        if request.method == "GET":
+            return render_template("index.html")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
