@@ -25,7 +25,7 @@ def init_db():
 def hello_world():
     return render_template("index.html")
 
-@app.route('/search', methods=["POST"])
+@app.route('/search', methods=["GET", "POST"])
 def getsongs():
     if request.method == "POST":
         data = request.form.get('search')
