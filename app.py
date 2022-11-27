@@ -26,26 +26,17 @@ def getsongs():
     data =""
     if request.method == "POST":
         data = request.form.get('search')
-    conn = sqlite3.connect('song.db')
-    cursor = conn.cursor()
-    cursor.execute(
-        "SELECT * FROM `songs` WHERE `title` LIKE ? OR `lyrics` LIKE ?",
-        ("%"+data+"%", "%"+data+"%",)
-    )
-    results = cursor.fetchall()
-    conn.close()
-    print(data)
-    return render_template("index.html", sgs=results)
-
-
-@app.route('/post', methods=["GET", "POST"])
-def index():
-    if request.method == "POST":
-        data = dict(request.form)
-        songs = getsongs(data["search"])
-    else:
-        songs = []
-    return render_template("results.html", sgs=songs)
+        conn = sqlite3.connect('song.db')
+        cursor = conn.cursor()
+        cursor.execute(
+            "SELECT * FROM `songs` WHERE `title` LIKE ? OR `lyrics` LIKE ?",
+            ("%"+data+"%", "%"+data+"%",)
+        )
+        results = cursor.fetchall()
+        conn.close()
+        print(data)
+        return render_template("results.html", sgs=results)
+    return render_template("index.html")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
