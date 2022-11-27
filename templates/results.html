@@ -52,7 +52,11 @@
         {% endfor %}
     </table>
     {% else %}
-    <div id="no_results">No search results.</div>
+    <div id="no_results">
+        <img src="../static/No search.jpg" alt="magnifying glass with no findings">
+        <h2>Oh no!</h2>
+        <p>Sorry, we couldn't find what you were looking for. Try searching for another title, artist or genre.</p>
+    </div>
     {% endif %}
 </main>
 </div>
