@@ -154,9 +154,8 @@ td{
     color: #8c8c8c;
 }
 
-.result_row{
-    height: 10px;
-    /* scroll-behavior: auto; */
+.cell_height{
+    line-height: 10px;
     overflow: scroll;
 }
 
