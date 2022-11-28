@@ -196,12 +196,13 @@ td{
 }
 
 #result_card img{
-    width: 300px;
+    width: 200px;
     margin: 0;
     padding: 0;
 }
 
 #left_align_hdgs{
+    width: 70%;
     padding: 1.5em;
 }
 
