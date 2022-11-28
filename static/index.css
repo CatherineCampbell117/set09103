@@ -216,6 +216,7 @@ td{
 
 #lyrics_heading{
     width: 600px;
+    margin: 0 auto;
     padding-top: 1.75em;
     text-align: left;
 }
