@@ -10,14 +10,12 @@
             <th>Title</th>
             <th>Artist</th>
             <th>Genre</th>
-            <th>Lyrics</th>
         </thead>
         {% for s in sgs %}
         <tr class="result_row">
             <td>{{ s[1] }}</td>
             <td>{{ s[3] }}</td>
             <td>{{ s[4] }}</td>
-            <td class="cell_height">{{ s[2] }}</td>
         </tr>
         {% endfor %}
     </table>
