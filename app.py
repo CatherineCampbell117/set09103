@@ -40,11 +40,11 @@ def getsongs():
             print(data)
             return render_template("results.html", sgs=results)
     
-@app.route('/about', methods=["GET", "POST"])
+@app.route('/about')
 def about():
     return render_template("about.html")
 
-@app.route('/help', methods=["GET", "POST"])
+@app.route('/help')
 def help():
     return render_template("help.html")   
 
