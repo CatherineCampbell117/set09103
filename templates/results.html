@@ -11,9 +11,9 @@ window.addEventListener("load", function (e) {
     const genre = document.querySelector(".genre");
 
     row.addEventListener("click", function () {
-        localStorage.setItem("title", title.textContext);
+        localStorage.setItem("title", title.textContent);
         localStorage.setItem("artist", artist.textContent);
-        localStorage.setItem("genre", genre.textContext);
+        localStorage.setItem("genre", genre.textContent);
         window.location.href = "/result_single";
     });
 },false)
