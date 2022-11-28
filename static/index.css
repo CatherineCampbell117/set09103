@@ -190,6 +190,11 @@ td{
     display: flex;
 }
 
+#result_card_img{
+    width: 40%;
+    margin: auto auto;
+}
+
 #result_card img{
     margin: 0;
     padding: 0;
