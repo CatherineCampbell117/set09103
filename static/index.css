@@ -159,6 +159,11 @@ td{
     cursor: pointer;
 }
 
+.cell_height{
+    height: 10px;
+    scroll-behavior: auto;
+}
+
 #no_results{
     text-align: center;
 }
