@@ -154,11 +154,14 @@ td{
     color: #8c8c8c;
 }
 
+.result_row{
+    height: 10px;
+    /* scroll-behavior: auto; */
+}
+
 .result_row:hover{
     background-color: #e3e3e3;
     cursor: pointer;
-    height: 10px;
-    scroll-behavior: auto;
 }
 
 #no_results{
