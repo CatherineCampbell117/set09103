@@ -159,6 +159,8 @@ td{
     cursor: pointer;
 }
 
+/* No Result page */
+
 #no_results{
     text-align: center;
 }
@@ -167,6 +169,15 @@ td{
     margin: 0;
     padding: 0;
     width: 300px;
+}
+
+/* Single Result page */
+
+#result_card{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #7B6CF6;
 }
 
 /* About & Help pages */
