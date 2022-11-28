@@ -184,14 +184,14 @@ td{
 
 #result_card{
     width: 500px;
-    height: 400px;
+    height: 300px;
     margin: 0 auto;
     background-color: #7B6CF6;
     display: flex;
 }
 
-#img_result_card{
-    margin: auto auto;
+#result_card img{
+    margin: 0;
     padding: 0;
 }
 
