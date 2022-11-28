@@ -185,14 +185,14 @@ td{
 #result_card{
     width: 500px;
     height: 300px;
-    margin: auto 0;
+    margin: 0 auto;
     background-color: #7B6CF6;
     display: flex;
 }
 
 #img_result_card{
     width: 40%;
-    margin: auto 0;
+    margin: auto auto;
 }
 
 #result_card img{
@@ -201,11 +201,15 @@ td{
 }
 
 #left_align_hdgs{
-    padding: 5em;
+    padding: 2em;
     text-align: left;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+}
+
+.result_heading{
+    padding-bottom: 1em;
 }
 
 /* About & Help pages */
