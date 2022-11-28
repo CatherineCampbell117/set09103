@@ -157,6 +157,7 @@ td{
 .result_row{
     height: 10px;
     /* scroll-behavior: auto; */
+    overflow: scroll;
 }
 
 .result_row:hover{
