@@ -154,6 +154,11 @@ td{
     color: #8c8c8c;
 }
 
+.result_row:hover{
+    background-color: #e3e3e3;
+    cursor: pointer;
+}
+
 #no_results{
     text-align: center;
 }
