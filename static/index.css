@@ -183,7 +183,7 @@ td{
 /* Single Result page */
 
 #result_card{
-    width: 500px;
+    width: 600px;
     height: 300px;
     margin: 0 auto;
     background-color: #7B6CF6;
@@ -191,7 +191,7 @@ td{
 }
 
 #img_result_card{
-    width: 40%;
+    width: 30%;
     margin: auto auto;
 }
 
@@ -201,14 +201,13 @@ td{
 }
 
 #left_align_hdgs{
-    padding: 2em;
-    text-align: left;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
+    padding: 1.5em;
 }
 
 .result_heading{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
     color: #f8f8ff;
     padding-bottom: 1em;
     text-align: left;
