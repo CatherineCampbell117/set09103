@@ -187,6 +187,14 @@ td{
     height: 200px;
     margin: 0 auto;
     background-color: #7B6CF6;
+    display: flex;
+}
+
+#left_align_hdgs{
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 /* About & Help pages */
