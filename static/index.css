@@ -194,9 +194,12 @@ td{
     width: 40%;
 }
 
+#result_card_img{
+    margin: auto 0;
+}
+
 #result_card img{
     width: 150px;
-    margin: auto 0;
     padding: 0;
 }
 
