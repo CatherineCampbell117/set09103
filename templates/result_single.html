@@ -1,6 +1,23 @@
 {% extends 'base.html' %}
 
+{% block head %}
+<script>
+window.addEventListener("load", function (e) {
+  const title_text = document.querySelector("#title_data");
+  const artist_text = document.querySelector("#title_data");
+  const genre_text = document.querySelector("#genre_data");
 
+  const title = localStorage.getItem("title");
+  const artist = localStorage.getItem("artist");
+  const genre = localStorage.getItem("genre");
+  if (title) {
+    title_text.textContent = `Title: ${title}`;
+    artist_text.textContent = `Artist: ${artist}`;
+    genre_text.textContent = `Genre: ${genre}`;
+  }
+}, false)
+</script>
+{% endblock %}
 
 {% block body %}
     <div id="wrapper">

@@ -6,17 +6,15 @@
 <script>
 window.addEventListener("load", function (e) {
     const row = document.querySelector(".result_row");
-    console.log(row)
     const artist = document.querySelector(".artist");
-    console.log(artist.textContent)
     const title = document.querySelector(".title");
     const genre = document.querySelector(".genre");
 
     row.addEventListener("click", function () {
-        localStorage.setItem("title", title.value);
+        localStorage.setItem("title", title.textContext);
         localStorage.setItem("artist", artist.textContent);
-        localStorage.setItem("genre", genre.value);
-        window.location.href = "result_single.html";
+        localStorage.setItem("genre", genre.textContext);
+        window.location.href = "/result_single";
     });
 },false)
 </script>
