@@ -192,7 +192,6 @@ td{
 
 #img_result_card{
     width: 40%;
-    margin: auto auto;
 }
 
 #result_card img{
@@ -209,7 +208,7 @@ td{
 .result_heading{
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 2rem;
     color: #f8f8ff;
     padding-bottom: 1em;
     text-align: left;
