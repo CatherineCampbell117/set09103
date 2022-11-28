@@ -135,6 +135,7 @@ table, thead, td, th{
 
 thead{
     border-bottom: 1px solid #b3b3b3;
+    color: #7B6CF6;
 }
 
 th{
@@ -153,7 +154,7 @@ td{
 }
 
 .result_row:hover{
-    background-color: #d3d3d3;
+    background-color: #e3e3e3;
     cursor: pointer;
 }
 
