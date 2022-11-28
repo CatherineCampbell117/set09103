@@ -48,6 +48,9 @@ def about():
 def help():
     return render_template("help.html")   
 
+@app.route('/result_single')
+def help():
+    return render_template("result_single.html")  
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
