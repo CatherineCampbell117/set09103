@@ -129,7 +129,7 @@ button:hover{
 table, thead, td, th{
     
     border-collapse: collapse;
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
 }
 
@@ -157,6 +157,15 @@ td{
 .result_row:hover{
     background-color: #e3e3e3;
     cursor: pointer;
+}
+
+.save_btn{
+    color: #f8f8ff;
+    border-radius: 2em;
+    background-color: #7B6CF6;
+    border: 2px solid #7B6CF6;
+    width: 5em;
+    margin: 0 auto;
 }
 
 /* No Result page */
