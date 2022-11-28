@@ -32,10 +32,11 @@ window.addEventListener("load", function (e) {
             <th>Genre</th>
         </thead>
         {% for s in sgs %}
-        <tr class="result_row" href="/result_single">
+        <tr class="result_row"><a href="/result_single">
             <td class="title">{{ s[1] }}</td>
             <td class="artist">{{ s[3] }}</td>
             <td class="genre">{{ s[4] }}</td>
+        </a>
         </tr>
         {% endfor %}
     </table>
