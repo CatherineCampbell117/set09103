@@ -152,16 +152,24 @@ td{
     font-size: 1rem;
 }
 
+#no_results{
+    text-align: center;
+}
+
+#no_results_img{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+
+/* About & Help pages */
+
 #about_text, #FAQs{
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 1rem;
     text-align: left;
     margin: 0 auto;
-}
-
-#no_results{
-    text-align: center;
 }
 
 #about_text p{
@@ -172,9 +180,4 @@ td{
     padding-top: 30px;
 }
 
-#no_results_img{
-    margin: 0;
-    padding: 0;
-    width: 300px;
-}
 
