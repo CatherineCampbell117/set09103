@@ -196,7 +196,7 @@ td{
 
 #result_card img{
     width: 150px;
-    margin: auto auto;
+    margin: auto 0;
     padding: 0;
 }
 
