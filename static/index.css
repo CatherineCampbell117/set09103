@@ -152,6 +152,10 @@ td{
     font-size: 1rem;
 }
 
+.result_row:hover{
+    background-color: #b3b3b3;
+}
+
 #no_results{
     text-align: center;
 }
