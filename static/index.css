@@ -156,7 +156,7 @@ td{
 
 .cell_height{
     height: 50px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .result_row:hover{
