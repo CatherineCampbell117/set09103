@@ -191,18 +191,18 @@ td{
 }
 
 #img_result_card{
-    width: 30%;
+    width: 40%;
     margin: auto auto;
 }
 
 #result_card img{
-    width: 200px;
-    margin: 0;
+    width: 150px;
+    margin: auto auto;
     padding: 0;
 }
 
 #left_align_hdgs{
-    width: 70%;
+    width: 60%;
     padding: 1.5em;
 }
 
