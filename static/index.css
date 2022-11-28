@@ -215,7 +215,8 @@ td{
 }
 
 #lyrics_heading{
-    padding-top: 5em;
+    width: 600px;
+    padding-top: 1.75em;
     text-align: left;
 }
 
