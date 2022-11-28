@@ -191,11 +191,12 @@ td{
 }
 
 #img_result_card{
-    width: 60%;
+    width: 30%;
     margin: auto auto;
 }
 
 #result_card img{
+    width: 300px;
     margin: 0;
     padding: 0;
 }
