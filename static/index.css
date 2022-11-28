@@ -152,6 +152,8 @@ td{
     font-weight: 700;
     font-size: 1rem;
     color: #8c8c8c;
+    height: 20px;
+    overflow: hidden;
 }
 
 .cell_height{
