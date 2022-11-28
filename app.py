@@ -49,7 +49,7 @@ def help():
     return render_template("help.html")   
 
 @app.route('/result_single')
-def help():
+def result_single():
     return render_template("result_single.html")  
 
 if __name__ == "__main__":
