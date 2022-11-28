@@ -209,7 +209,14 @@ td{
 }
 
 .result_heading{
+    color: #f8f8ff;
     padding-bottom: 1em;
+    text-align: left;
+}
+
+#lyrics_heading{
+    padding-top: 5em;
+    text-align: left;
 }
 
 /* About & Help pages */
