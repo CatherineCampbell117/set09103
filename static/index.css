@@ -197,7 +197,7 @@ td{
 #result_card_img{
     margin: auto 0;
     width: 150px;
-    padding: auto 1.5em;
+    padding: 2em;
 }
 
 #left_align_hdgs{
@@ -240,7 +240,7 @@ td{
     font-size: 1rem;
     color: #f8f8ff;
     margin: auto 0;
-    padding-left: .5em;
+    padding-left: .25em;
 }
 
 #spotify_btn{
