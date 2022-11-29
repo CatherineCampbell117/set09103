@@ -226,6 +226,11 @@ td{
 #spotify_btn img{
     width: 30px;
     margin: 0;
+    padding: 0;
+}
+
+#spotify_btn_txt{
+    margin: auto o;
 }
 
 .card_btn{
