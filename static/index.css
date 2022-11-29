@@ -197,7 +197,7 @@ td{
 #result_card_img{
     margin: auto 0;
     width: 150px;
-    padding: 3em 2em;
+    padding: 3.5em 2em;
 }
 
 #left_align_hdgs{
@@ -229,7 +229,7 @@ td{
 
 #spotify_btn img{
     width: 25px;
-    padding: .5em 0 0 0;
+    padding: .25em 0 0 0;
     margin: auto 0;
 }
 
@@ -240,7 +240,7 @@ td{
     font-size: 1rem;
     color: #f8f8ff;
     margin: auto 0;
-    padding-left: .05em;
+    padding-left: 1em;
 }
 
 #spotify_btn{
