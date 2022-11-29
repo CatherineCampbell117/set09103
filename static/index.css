@@ -225,6 +225,7 @@ td{
 
 #spotify_btn img{
     width: 20px;
+    margin: 0;
 }
 
 .card_btn{
@@ -233,7 +234,7 @@ td{
     border-radius: 2em;
     background-color: #7B6CF6;
     border: 2px solid #7B6CF6;
-    width: 50px;
+    width: 100px;
     margin: 0;
 }
 
