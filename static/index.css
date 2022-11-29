@@ -228,14 +228,14 @@ td{
 }
 
 #spotify_btn img{
-    width: 30px;
+    width: 25px;
     margin: 0;
     padding: .5em;
 }
 
 #spotify_btn_txt{
     font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1rem;
     color: #f8f8ff;
     margin: auto 0;
@@ -249,8 +249,9 @@ td{
     border-radius: 2em;
     background-color: #7B6CF6;
     border: 2px solid #7B6CF6;
-    width: 200px;
+    width: 175px;
     margin: 0;
+    padding-top: 5px;
 }
 
 #card_btn:hover{
