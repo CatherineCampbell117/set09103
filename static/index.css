@@ -225,7 +225,11 @@ td{
 
 #spotify_btn img{
     display: inline-block;
-    width: 5px;
+    width: 20px;
+}
+
+.card_btn{
+    margin: 0;
 }
 
 /* About & Help pages */
