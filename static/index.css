@@ -222,6 +222,10 @@ td{
     text-align: left;
 }
 
+#lyrics{
+    width: 550px;
+}
+
 #card_btn{
     margin: 0;
     padding: ;
