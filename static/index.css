@@ -229,7 +229,7 @@ td{
 
 #spotify_btn img{
     width: 25px;
-    padding: 0;
+    padding: .5em 0 0 0;
     margin: auto 0;
 }
 
