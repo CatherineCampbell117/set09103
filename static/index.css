@@ -234,8 +234,13 @@ td{
 }
 
 #spotify_btn_txt{
-    margin: auto o;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #f8f8ff;
+    margin: auto 0;
     padding: em 0 2em 2em;
+    vertical-align: center;
 }
 
 #spotify_btn{
