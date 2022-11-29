@@ -228,12 +228,8 @@ td{
 }
 
 #spotify_btn img{
-    width: 25px;
-    padding: 0;
-}
-
-#spotify_img{
-    margin: auto 0;
+    width: 20px;
+    padding: 0 2em 0 0;
 }
 
 #spotify_btn_txt{
@@ -252,7 +248,7 @@ td{
     border: 2px solid #7B6CF6;
     width: 175px;
     margin: 15px 0 0 0;
-    padding: 0.5em 1.25em;
+    padding: 0 1em;
 }
 
 #card_btn:hover{
