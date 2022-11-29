@@ -99,8 +99,8 @@ button, input[type=text] {
 }
 
 input[type=text]:focus{
-    border: 2px solid #E5A5FF;
-    outline:#E5A5FF;
+    border: 2px solid #cdc8fa;
+    outline:#cdc8fa;
 }
 
 ::placeholder{
