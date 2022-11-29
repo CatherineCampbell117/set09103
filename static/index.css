@@ -228,9 +228,11 @@ td{
 }
 
 #spotify_btn img{
-    width: 20px;
-    padding: 0 2em 0 0;
+    width: 25px;
+    padding: 0;
+    margin: auto 0;
 }
+
 
 #spotify_btn_txt{
     font-family: 'Quicksand', sans-serif;
