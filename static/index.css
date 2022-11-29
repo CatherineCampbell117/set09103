@@ -229,8 +229,11 @@ td{
 
 #spotify_btn img{
     width: 25px;
+    /* padding: .5em; */
+}
+
+#spotify_img{
     margin: auto 0;
-    padding: .5em;
 }
 
 #spotify_btn_txt{
