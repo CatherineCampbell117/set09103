@@ -197,7 +197,7 @@ td{
 #result_card_img{
     margin: auto 0;
     width: 150px;
-    padding: 1.5em;
+    padding: auto 1.5em;
 }
 
 #left_align_hdgs{
