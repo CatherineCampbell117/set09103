@@ -118,7 +118,6 @@ button{
 
 button:hover{
     background-image: linear-gradient(#7B6CF6 0%, #5432D3 100%);
-    /* background-color: #5432D3; */
     border: 2px solid #7B6CF6;
     color: #f8f8ff;
     transition: all 0.3s ease 0s;
@@ -225,6 +224,7 @@ td{
 
 #card_btn{
     margin: 0;
+    padding: ;
 }
 
 #spotify_btn img{
@@ -238,12 +238,10 @@ td{
 
 #spotify_btn_txt{
     font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1rem;
     color: #f8f8ff;
     margin: auto 0;
-    padding: em 0 2em 2em;
-    /* vertical-align: center; */
 }
 
 #spotify_btn{
@@ -254,6 +252,7 @@ td{
     border: 2px solid #7B6CF6;
     width: 175px;
     margin: 15px 0 0 0;
+    padding: 0.5em 1.25em;
 }
 
 #card_btn:hover{
