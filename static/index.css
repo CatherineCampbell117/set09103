@@ -223,6 +223,10 @@ td{
     text-align: left;
 }
 
+#card_btn{
+    margin: 0;
+}
+
 #spotify_btn img{
     width: 30px;
     margin: 0;
@@ -231,7 +235,7 @@ td{
 
 #spotify_btn_txt{
     margin: auto o;
-    padding: 2em 0 2em 2em;
+    padding: em 0 2em 2em;
 }
 
 .spotify_btn{
@@ -241,6 +245,7 @@ td{
     background-color: #7B6CF6;
     border: 2px solid #7B6CF6;
     width: 200px;
+    height: 50px;
     margin: 0;
 }
 
