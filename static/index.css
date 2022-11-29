@@ -223,17 +223,17 @@ td{
     text-align: left;
 }
 
-#spotify_btn{
-    display: flex;
+#spotify_btn img{
     width: 20px;
 }
 
 .card_btn{
+    display: flex;
     color: #f8f8ff;
     border-radius: 2em;
     background-color: #7B6CF6;
     border: 2px solid #7B6CF6;
-    width: 20px;
+    width: 50px;
     margin: 0;
 }
 
