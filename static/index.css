@@ -226,14 +226,15 @@ td{
 #spotify_btn img{
     width: 30px;
     margin: 0;
-    padding: 0;
+    padding: 2em;
 }
 
 #spotify_btn_txt{
     margin: auto o;
+    padding: 2em 0 2em 2em;
 }
 
-.card_btn{
+.spotify_btn{
     display: flex;
     color: #f8f8ff;
     border-radius: 2em;
