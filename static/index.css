@@ -154,6 +154,7 @@ td{
 }
 
 .result_row:hover{
+    color: #7B6CF6;
     background-color: #e3e3e3;
     cursor: pointer;
 }
