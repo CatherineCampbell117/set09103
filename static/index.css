@@ -153,8 +153,11 @@ td{
     color: #8c8c8c;
 }
 
-.result_row:hover{
+td:hover{
     color: #7B6CF6;
+}
+
+.result_row:hover{
     background-color: #e3e3e3;
     cursor: pointer;
 }
